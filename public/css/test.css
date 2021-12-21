@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFEEEE;
+    min-height: 100vh;
+}
+
+.sidebar {
+    height: 800px;
+    width: 50px;
+    background-color: #EFEEEE;
+    box-shadow: -6px -6px 16px rgba(255, 255, 255, .5), 6px 6px 16px rgba(209, 205, 199, .5);
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle {
+    height: 400px;
+    width: 50%;
+    background-color: #EFEEEE;
+    box-shadow: -6px -6px 16px rgba(255, 255, 255, .5), 6px 6px 16px rgba(209, 205, 199, .5);
+    border-radius: 12px;
+    /* Optional Border (I dont like it but it might make cards more distinct)
+    border: 1px solid rgba(255,255,255,0.2);
+    */
+}
+
+.rectangle > h1 {
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10%;
+    font-weight: 1000;
+
+}
+
+.rectangle > p {
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.center-x {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-y {
+    margin-top: 10%;
+}
+
+.top-right {
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: auto;
+}
